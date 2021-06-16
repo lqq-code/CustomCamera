@@ -1,0 +1,15 @@
+/**index.wxss**/
+page{
+  width: 100%; height: calc(100% - 1rpx); 
+  border-top: 1rpx solid #ffd8a2;
+}
+.takephoto{
+  width: 400rpx; height: 400rpx;
+  border-radius: 999px; 
+  position: absolute; left: 50%; top: 50%;
+  margin-left: -200rpx; margin-top: -200rpx;
+}
+.takephoto_txt{
+  margin-top: 220rpx; text-align: center; color: #333;
+  font-size: 11pt;
+}

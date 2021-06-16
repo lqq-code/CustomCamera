@@ -1,0 +1,10 @@
+<canvas canvas-id="image-canvas" style='width:{{width}}px; height:{{height}}px;'>
+  <cover-view class="camerabgImage-view">
+      <cover-view class="camerabotton-view" >
+        <button type="" class="photo-shareBtn" bindtap="downImg" >分享照片</button>
+      </cover-view>
+  </cover-view>
+</canvas>
+
+<!-- <painter style="position: absolute; top: -9999rpx;" palette="{{imgDraw}}" bind:imgOK="onImgOK" /> -->
+

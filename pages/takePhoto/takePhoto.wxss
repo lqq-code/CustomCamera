@@ -1,0 +1,45 @@
+/* pages/takePhoto/takePhoto.wxss */
+page{
+  width: 100%; 
+  height: 100%; 
+  /* background: #fe9d20; */
+}
+.camerabgImage-view{
+  height: 100%;
+  width: 100%;
+  position:absolute;
+ }
+ .cameratop-view1{
+  color: #FFFFFF;
+  margin:25rpx 55rpx;
+ }
+ .cameratop-view2{
+  width: 100%;
+  position: absolute;
+  bottom: 15%;
+ }
+ .cameratop-view2-detail{
+  height: 44rpx;
+  margin:25rpx 55rpx;
+  width: 100%;
+  color: #FFFFFF;
+ }
+ .camerabotton-view{
+  height: 132rpx;
+  width: 100%;
+  bottom: 5%;
+  position:absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+.takephoto{
+  width: 132rpx;
+  height: 132rpx;
+  border-radius: 999px; 
+  box-shadow: 0 0 50rpx gray;
+}
+.biaochi{
+  position: absolute;
+  border: 1px dotted red;
+}

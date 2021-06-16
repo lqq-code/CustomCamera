@@ -1,0 +1,30 @@
+page{
+  overflow:visible;
+}
+.camerabgImage-view{
+  height: 100%;
+  width: 100%;
+  position:absolute;
+ }
+ .cameratop-view3{
+  width: 100%;
+  position: absolute;
+  bottom: 25%;
+ }
+  .cameratop-view2-detail{
+  height: 44rpx;
+  margin:25rpx 100rpx;
+  width: 100%;
+  color: #FFFFFF;
+ }
+ .camerabotton-view{
+  width: 100%;
+  bottom: 5%;
+  position:absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+ .photo-shareBtn{
+  border-radius: 8px; 
+ }

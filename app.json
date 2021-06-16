@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/takePhoto/takePhoto",
+    "pages/takePhoto/upload"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "证据保全相机",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fe9d20",
+    "backgroundColorTop": "#fe9d20",
+    "backgroundColorBottom": "#fe9d20"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "permission":{
+    "scope.userLocation":{
+      "desc":"请点击确定"
+    }
+  },
+  "component": true,
+  "usingComponents": {
+    "painter": "pages/takePhoto/upload"
+  }
+}

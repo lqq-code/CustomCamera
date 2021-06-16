@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<image src='{{src}}' class='takephoto' bindtap='takePhoto'></image>
+<view class='takephoto_txt'>{{takephoto_txt}}</view> 
+
